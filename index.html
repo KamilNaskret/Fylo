@@ -5,27 +5,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./scss/style.css">
   <title>Frontend Mentor | Fylo data storage component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
-  You’ve used 815 GB of your storage
-
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
+  <div class="wrapper">
+    <div class="wrapper__left">
+      <div class="wrapper__left__top">
+        <img src="./images/logo.svg" alt="logo">
+      </div>
+      <div class="wrapper__left__bottom">
+        <div class="imgCon">
+          <img src="./images/icon-document.svg" alt="icon-document">
+        </div>
+        <div class="imgCon">
+          <img src="./images/icon-folder.svg" alt="icon-folder">
+        </div>
+        <div class="imgCon">
+          <img src="./images/icon-upload.svg" alt="icon-upload">
+        </div>
+      </div>
+    </div>
+    <div class="wrapper__right">
+      <p class="info">
+        You've used <span>815 GB</span> of your storage
+        <div class="result">
+          asd
+        </div>
+        <p class="spanCon">
+          <span>0 GB</span>
+          <span>1000 GB</span>
+        </p>
+        <div class="showGB">
+          <p><span>185</span> gb left</p>
+        </div>
+      </p>
+    </div>
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Tech Kami</a>.
   </div>
 </body>
 </html>
